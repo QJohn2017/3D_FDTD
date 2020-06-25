@@ -278,7 +278,7 @@ void mode_plot(mode psi){
 	FILE *gnuplot;
 	FILE *ep, *mu, *Ex, *Ey, *Ez, *Hx, *Hy, *Hz;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	X = malloc(psi.i*sizeof(double));
 	Y = malloc(psi.j*sizeof(double));

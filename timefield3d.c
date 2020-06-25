@@ -354,7 +354,7 @@ void timefield3d_plot_Ex_x_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -410,7 +410,7 @@ void timefield3d_plot_Ex_y_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -466,7 +466,7 @@ void timefield3d_plot_Ex_z_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
@@ -522,7 +522,7 @@ void timefield3d_plot_Ey_x_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -578,7 +578,7 @@ void timefield3d_plot_Ey_y_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -634,7 +634,7 @@ void timefield3d_plot_Ey_z_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
@@ -690,7 +690,7 @@ void timefield3d_plot_Hx_x_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -746,7 +746,7 @@ void timefield3d_plot_Hx_y_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -802,7 +802,7 @@ void timefield3d_plot_Hx_z_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
@@ -858,7 +858,7 @@ void timefield3d_plot_Hy_x_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -914,7 +914,7 @@ void timefield3d_plot_Hy_y_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -970,7 +970,7 @@ void timefield3d_plot_Hy_z_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
@@ -1026,7 +1026,7 @@ void timefield3d_plot_Ex_x_slice_fourier(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -1082,7 +1082,7 @@ void timefield3d_plot_Ex_y_slice_fourier(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -1138,7 +1138,7 @@ void timefield3d_plot_Ex_z_slice_fourier(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
@@ -1194,7 +1194,7 @@ void timefield3d_plot_permittivity_x_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -1250,7 +1250,7 @@ void timefield3d_plot_permittivity_y_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and X axis values
 	X = malloc(psi.i*sizeof(double));
 	Z = malloc(psi.k*sizeof(double));
@@ -1306,7 +1306,7 @@ void timefield3d_plot_permittivity_z_slice(timefield3d psi, int slice_index){
 	
 	//y_height = (2*0.33*psi.j)/psi.k;
 
-	gnuplot = popen("/usr/bin/gnuplot5-qt -persist", "w");
+	gnuplot = popen("/usr/bin/gnuplot -persist", "w");
 	//set arrays corresponding to the X and Y axis values
 	Y = malloc(psi.j*sizeof(double));
 	X = malloc(psi.i*sizeof(double));
